@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Network Duck</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+
+    <link rel="stylesheet" type="text/css" href="css/superslides.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=PT+Sans+Caption&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="apple-touch-icon" href="favicon.ico" />
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-159990970-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-159990970-1");
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/countUp.js"></script>
+    <script src="js/countUp-jquery.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/typed.min.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <div id="slides">
+      <div class="overlay"></div>
+      <div class="slides-container"></div>
+
+      <div class="titleMessage">
+        <div class="heading">
+          <p class="main">Network Duck</p>
+          <p class="sub typed"></p>
+          <p class="alternate-job"></p>
+          <div class="location-box margin-top-xl">
+            <i class="fas fa-map-pin"></i>
+            <p class="location-text margin-remove-bottom"></p>
+          </div>
+        </div>
+      </div>
+
+<!--       <nav class="slides-navigation">
+        <a href="#" class="next"></a>
+        <a href="#" class="prev"></a>
+      </nav> -->
+    </div>
+
+    <nav id="navigation" class="navbar navbar-expand-lg">
+      <div class="brand">
+        <a class="navbar-brand" href="#slides">HOME</a>
+      </div>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item item0">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item item1">
+            <a class="nav-link" href="#skills">SKILLS</a>
+          </li>
+          <li class="nav-item item2">
+            <a class="nav-link" href="#stats">STATS</a>
+          </li>
+          <li class="nav-item item3">
+            <a class="nav-link" href="#portfolio">PROJECTS</a>
+          </li>
+          <li class="nav-item item4">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="about" class="section aboutSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img
+              class="aboutImage dark-theme-shadow"
+              src="images/networkduck.png"
+            />
+          </div>
+
+          <div class="col-md-7 aboutInfo">
+            <h5 id="work"></h5>
+            <div class="my-details">
+              <h5 class="text-large office-text"></h5>
+              <h5 class="text-large spare-text"></h5>
+              <h5 class="text-large language-text"></h5>
+              <h5 class="text-large hobby-text"></h5>
+              <h5 class="text-large game-text"></h5>
+              <h5 class="margin-top-m text-large contribution-text"></h5>
+              <p class="margin-top-l">
+                <span class="highlight text-medium motto"></span>
+              </p>
+            </div>
+
+            <h5 class="services-header margin-top-l">What Can I Do?</h5>
+            <div class="services">
+              <div class="grid-data">
+                <div class="hex-wrap">
+                  <div class="hexagon">
+                    <i class="material-icons location-icon">web</i>
+                  </div>
+                </div>
+                <div class="label text-center">Web Development</div>
+              </div>
+              <div class="grid-data">
+                <div class="hex-wrap">
+                  <div class="hexagon">
+                    <i class="fab fa-app-store-ios"></i>
+                  </div>
+                </div>
+                <div class="label text-center">iOS Development</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="skillsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 style="opacity: 0;" id="technical-title">TECHNICAL SKILLS</h2>
+            <p class="techSkillsInfo left-double" style="opacity: 0;">
+              What I Love & What My Superpowers Are:
+            </p>
+          </div>
+          <div class="skill-showcase">
+            <img
+              src="./images/dev.svg"
+              class="dark-theme-shadow margin-right-xs"
+            />
+            <div class="margin-top-xl skills-container">
+              <div>
+                <h6>Programming Languages</h6>
+                <ul class="dev-skills">
+                  <li class="skill" data-toggle="tooltip" title="Python">
+                    <i class="fab fa-python"></i>
+                  </li>
+                  <li class="skill" data-toggle="tooltip" title="Javascript">
+                    <i class="fab fa-js"></i>
+                  </li>
+                  <li class="skill" data-toggle="tooltip" title="HTML">
+                    <i class="fab fa-html5"></i>
+                  </li>
+                  <li class="skill" data-toggle="tooltip" title="CSS">
+                    <i class="fab fa-css3-alt"></i>
+                  </li>
+                  <li class="skill" data-toggle="tooltip" title="Swift 5">
+                    <i class="fab fa-swift" title="swift"></i>
+                  </li>
+                  <li class="skill" data-toggle="tooltip" title="Java">
+                    <i class="fab fa-java"></i>
+                  </li> 
+                </ul>
+              </div>
+              <div class="margin-top-s">
+                <h6>Tech Skills</h6>
+                <ul class="dev-skills">
+                  <li
+                    class="skill"
+                    data-toggle="tooltip"
+                    title="iOS Development"
+                  >
+                  <li class="skill" data-toggle="tooltip" title="Git">
+                    <i class="fab fa-git"></i>
+                  </li>
+                  <li class="skill" data-toggle="tooltip" title="Node.js">
+                    <i class="fab fa-node"></i>
+                  </li>
+                  <li class="skill" data-toggle="tooltip" title="iOS Development">
+                    <i class="fab fa-app-store"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="margin-top-s">
+                <h6>Utility Skills</h6>
+                <ul class="dev-skills">
+                  <li class="skill" data-toggle="tooltip" title="Github">
+                    <i class="fab fa-github"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="stats" class="statsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 style="opacity: 0;" id="stats-title">STATS</h2>
+          </div>
+
+          <div class="col-md-3 col-sm-6 margin-top-xl">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fas fa-rocket"></i>
+                </div>
+
+                <div class="squareContent">
+                  <h2 class="counter">4</h2>
+                  <h3>Years of Engineering</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 margin-top-xl">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="far fa-file"></i>
+                </div>
+
+                <div class="squareContent">
+                  <h2 class="counter">3</h2>
+                  <h3>Web And iOS Apps Each</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 margin-top-xl">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fas fa-paper-plane"></i>
+                </div>
+
+                <div class="squareContent">
+                  <h2 class="counter">2</h2>
+                  <h3>Years of Cyber Patriot</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 margin-top-xl">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fa fa-clock"></i>
+                </div>
+
+                <div class="squareContent">
+                  <h2 class="counter">1</h2>
+                  <h3>Companies</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio" class="section-small">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center" style="padding-bottom: 16px;">
+            <h2 id="portfolio-title" style="opacity: 0;">PROJECTS</h2>
+          </div>
+
+          <div class="filter" style="opacity: 0;">
+            <ul id="filters">
+              <li><a href="#" data-filter=".web">WEB</a></li>
+              <li><a href="#" data-filter="*" class="current">ALL</a></li>
+              <li><a href="#" data-filter=".ios">IOS</a></li>
+            </ul>
+          </div>
+
+          <div
+            class="itemsContainer"
+            id="items-left-double"
+            style="opacity: 0;"
+          >
+            <ul class="items margin-top-xl large">
+              <li onclick="" class="web col-xs-6 col-sm-6 col-md-5 col-lg-4">
+                <div class="item">
+                  <img src="images/portfolio/main.png" />
+
+                  <div class="icons">
+                    <a
+                      href="images/portfolio/main.png"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This Website, The One You Are Looking At Right Now."
+                    >
+                      <i class="fa fa-info-circle"></i>
+                    </a>
+
+                    <a 
+                      href="https://network-duck.github.io/"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="portfolio-info">
+                    <h3>
+                      This Website - A Github Pages Portfolio Site For Me.
+                    </h3>
+                    <p>HTML, CSS, JS</p>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li onclick="" class="web col-xs-6 col-sm-6 col-md-5 col-lg-4">
+                <div class="item">
+                  <img src="images/portfolio/snake.png" />
+
+                  <div class="icons">
+                    <a
+                      href="images/portfolio/snake.png"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="A Snake Game For When You Are Bored In Class."
+                    >
+                      <i class="fa fa-info-circle"></i>
+                    </a>
+
+                    <a 
+                      href="https://network-duck.github.io/snake/"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="portfolio-info">
+                    <h3>
+                      Snake - A Github Pages Snake Game.
+                    </h3>
+                    <p>HTML, CSS, JS</p>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li onclick="" class="web col-xs-6 col-sm-6 col-md-5 col-lg-4">
+                <div class="item">
+                  <img src="images/portfolio/valentine.png">
+                  <div class="icons">
+                    <a
+                      href="images/portfolio/valentine.png"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="Saw It On Instagram And Decided To Make My Own."
+                    >
+                      <i class="fa fa-info-circle"></i>
+                    </a>
+
+                    <a 
+                      href="https://network-duck.github.io/valentine/"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="portfolio-info">
+                    <h3>Valentine - Will You Be My Valentine?</h3>
+                    <p>HTML, CSS, JS</p>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+              <li onclick="" class="ios col-xs-6 col-sm-6 col-md-5 col-lg-4">
+                <div class="item">
+                  <img src="images/portfolio/letsEat.png" />
+                  ̉
+                  <div class="icons">
+                    <a
+                      href="images/portfolio/letsEat.png"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="Learn How To Program In Swift Using The LetsEat App."
+                    >
+                      <i class="fa fa-info-circle"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="portfolio-info">
+                    <h3>LetsEat</h3>
+                    <p>Swift</p>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+              <li onclick="" class="ios col-xs-6 col-sm-6 col-md-5 col-lg-4">
+                <div class="item">
+                  <img src="images/portfolio/myCalculator.png" />
+
+                  <div class="icons">
+                    <a
+                      href="images/portfolio/myCalculator.png"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="A Calculator App For A Classes Final."
+                    >
+                      <i class="fa fa-info-circle"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="portfolio-info">
+                    <h3>myCalculator</h3>
+                    <p>Swift</p>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+              <li onclick="" class="ios col-xs-6 col-sm-6 col-md-5 col-lg-4">
+                <div class="item">
+                  <img src="images/portfolio/tma.png" />
+
+                  <div class="icons">
+                    <a
+                      href="images/portfolio/tma.png"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="TMA (Time Managment Assistance) - Helps Students Better Manage Their Time."
+                    >
+                      <i class="fa fa-info-circle"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="portfolio-info">
+                    <h3>TMA (Time Managment Assistance)</h3>
+                    <p>Swift</p>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="contactSection section">
+      <div class="col-md-12 text-center">
+        <p class="subheading text-medium" id="contact-desc" style="opacity: 0;">
+          Like What You See?
+        </p>
+        <h2 id="contact-me" style="opacity: 0;">I'd Love To Hear From You!</h2>
+        <a href="mailTo:joseph.rice26@flhsemail.org" class="contactButton"
+          ><i class="fas fa-paper-plane"></i
+          ><span style="font-weight: 700;"> GET IN TOUCH!</span></a
+        >
+      </div>
+    </div>
+
+    <div class="copyrightSection">
+      <h3>Connect With Me On</h3>
+      <div class="icon-wrap flex text-center" style="height: 105px;">
+        <a href="https://github.com/network-duck" target="_blank">
+          <div class="flex icon" id="icon-5">
+            <i class="fab fa-github"></i>
+          </div>
+        </a>
+
+        <!--
+          <a
+          href="https://stackoverflow.com/users/########/joseph"
+          target="_blank"
+          >
+            <div class="flex icon" id="icon-5">
+              <i class="fab fa-stack-overflow"></i>
+            </div>
+          </a>
+        -->
+
+        <a href="https://www.instagram.com/joe.cool8/" target="_blank">
+          <div class="flex icon" id="icon-5">
+            <i class="fab fa-instagram"></i>
+          </div>
+        </a>
+
+        <!--
+          <a href="https://www.linkedin.com/in/joseph/" target="_blank">
+            <div class="flex icon" id="icon-2">
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+          </a>
+        -->
+
+      </div>
+
+      <div class="col-md-12 text-center">
+        <p>Network Duck <span class="highlight">&copy;2024</span></p>
+      </div>
+    </div>
+  </body>
+</html>
